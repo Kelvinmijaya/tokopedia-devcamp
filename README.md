@@ -23,7 +23,7 @@ $ yarn && yarn start                # Install project dependencies, Compile and 
 or
 
 ```bash
-$ npm && npm start                # Install project dependencies, Compile and launch
+$ npm install && npm start                # Install project dependencies, Compile and launch
 ```
 
 While developing, you will probably rely mostly on `yarn start`; however, there are additional scripts at your disposal:
