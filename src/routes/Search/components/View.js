@@ -5,7 +5,6 @@ import { func, bool, arrayOf, object, string } from "prop-types";
 import { getSearchProduct } from "../../../modules/Search";
 import ProductCard from "../../../components/ProductCard";
 import { ProductWrap, ProductRow } from "./style";
-import { gqlFetch } from '../../../helpers'
 
 class SearchView extends Component {
   static propTypes = {
@@ -27,28 +26,6 @@ class SearchView extends Component {
       getSearchProduct(query, 1);
     }
 
-    this.fetchGql()
-
-  }
-
-  fetchGql = async () => {
-    const gql = `
-      query getMovie($title: String!) {
-        Movie(title: $title) {
-          releaseDate
-          actors {
-            name
-          }
-        }
-      }
-    `
-
-    const variables = {
-      title: 'Inception',
-    }
-
-    const dataGql = await gqlFetch({ query: gql, variables })
-    console.log("dataGql: ", dataGql)
   }
 
   render() {
