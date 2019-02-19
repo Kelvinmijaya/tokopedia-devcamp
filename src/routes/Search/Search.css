@@ -1,0 +1,21 @@
+.searchWrapper {
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+  margin: 70px auto 0;
+}
+
+.loadmoreButton {
+  position: relative;
+  background-color: rgb(255, 87, 34);
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 24px 1px;
+  margin: 0 0 20px 0;
+  padding: 16px;
+  border-radius: 4px;
+  overflow: hidden;
+  text-align: center;
+  cursor: pointer;
+  color: white;
+  width: 100%;
+  border: none;
+}

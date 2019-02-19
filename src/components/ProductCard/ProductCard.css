@@ -1,0 +1,63 @@
+.cardContainer {
+  width: 100%;
+  height: auto;
+  display: block;
+  position: relative;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 24px 1px;
+  margin: 0 0 16px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.cardContainer .cardInfo {
+  height: auto;
+  display: block;
+  position: relative;
+  width: 100%;
+  padding: 10px;
+}
+
+.cardContainer .cardImage {
+  width: 100%;
+  display: block;
+  position: relative;
+  z-index: 1;
+}
+
+.cardContainer .cardLink {
+  width: 100%;
+  display: block;
+  position: relative;
+}
+
+.cardContainer .cardName {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.29;
+  position: relative;
+  word-break: break-word;
+  height: auto;
+  color: #000;
+  overflow: hidden;
+  margin: 10px 0 0;
+}
+
+.cardContainer .brandName {
+  display: block;
+  font-size: 12px;
+  font-weight: 300;
+  position: relative;
+  word-break: break-word;
+  height: auto;
+  color: #333;
+  overflow: hidden;
+  margin: 5px 0 10px;
+}
+
+.cardContainer .cardPrice {
+  font-size: 14px;
+  font-weight: 600;
+  position: relative;
+  color: #000;
+}
