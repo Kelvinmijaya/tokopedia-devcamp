@@ -7,7 +7,7 @@ class Search extends Component {
     return (
       <Fragment>
         <div className="searchWrapper">
-        <p>Welcome to DevCamp Tokopedia</p>
+        <p style={{ textAlign: 'center' }} >Welcome to DevCamp Tokopedia</p>
         </div>
       </Fragment>
     );
